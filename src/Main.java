@@ -17,6 +17,10 @@ public class Main {
         random.setSeed(random.nextInt());
         d2 = (random.nextDouble(99 - 1) + 1);
         //System.out.println("d2 = " + d2);
-        System.out.println("Результати привласнення:\nl = " + l + "\nd1 = " + d1 + "\nd2 = " + d2);
+        System.out.println("\nРезультати привласнення:\nl = " + l + "\nd1 = " + d1 + "\nd2 = " + d2);
+
+        //Task 3
+        double y = Math.sin(d1) * Math.cos(d2) - (Math.atan(d1)/Math.atan(d2));
+        System.out.println("\nРезультат обчислення:\ny = " + y);
     }
 }
